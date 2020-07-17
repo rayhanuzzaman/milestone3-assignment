@@ -32,3 +32,23 @@ function tinyFriend(numbers){
 var friendsList = ['karimullah','monirul','rayhan','hasanuzzaman','mehjabin'];
 console.log(tinyFriend(friendsList));
 
+//brickCalculator
+function brickCalculator(storied){
+    if(storied<=10){
+        var feet1 = storied * 15;
+        var brick = feet1 * 1000;
+    }
+    else if(storied<=20){
+        var feet2 = storied * 12;
+        var brick = feet2 * 1000;
+    }
+    else{
+        var feet3 = storied * 10;
+        var brick = feet3 * 1000;
+    }
+    return brick;
+
+
+}
+var final = brickCalculator(12);
+console.log(final);
